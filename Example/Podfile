@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HRLogin_Example' do
+  pod 'HRLogin', :path => '../'
+
+  target 'HRLogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
