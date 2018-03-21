@@ -1,0 +1,6 @@
+framework module HRLogin {
+  umbrella header "HRLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

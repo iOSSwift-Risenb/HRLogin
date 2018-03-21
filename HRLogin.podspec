@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'obgniyum' => 'obgniyum@icloud.com' }
-  s.source           = { :git => 'https://github.com/obgniyum/HRLogin.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSSwift-Risenb/HRLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HRLogin/Classes/**/*'
+s.source_files = 'HRLogin/Classes/**/*.{swift,h}'
   
   # s.resource_bundles = {
   #   'HRLogin' => ['HRLogin/Assets/*.png']
@@ -38,5 +38,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+s.vendored_libraries = 'HRLogin/Classes/WechtSDK1.8.2_NoPay/libWeChatSDK.a'
+s.libraries = 'c++', 'z', 'sqlite3.0'
+s.frameworks        = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+
+
   # s.dependency 'AFNetworking', '~> 2.3'
 end
