@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		060B14EA621775D6903BDAEE7716BBC1 /* Pods-HRLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8BB58615EEFA9B3F39AC1852FA51DB /* Pods-HRLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ED4EF765B92C2C1108E36C2CD1FD8F8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD4BC30FB428426AD82F308276840B /* CoreMotion.framework */; };
-		33F878BEEB13A82EA3D14BBB8B908E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */; };
+		19833954C4182093F475091048A01EEC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9BC74AE256490C0A203F8662F8260D /* SystemConfiguration.framework */; };
+		19F12F66A10D443AC2B0A64B94D97697 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 143F179EFA4CD68707C064420A6A8075 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E987C54D9CCD2C4433CF508890B55F3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414A5B738D4770D5BE084B7891BCEC8B /* CoreTelephony.framework */; };
+		33F878BEEB13A82EA3D14BBB8B908E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7423567E841AE2F9663B611B1718DF /* Foundation.framework */; };
+		3A0D9012F9115DA2BA5EA6FC93C819EE /* HRLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B585907E1BEEFBDBABF9AF6361CFEC3 /* HRLogin-dummy.m */; };
+		3ED25EC89547459629446F678B473D10 /* WeChatLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86D725E0044899E7F9015F23F8943A8 /* WeChatLogin.swift */; };
+		461121F69D79C7E1405BD1B907E93FFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC5CB451D24C14CD13B34233BBB942D /* CFNetwork.framework */; };
 		4BFE15A7C9E33DE55577014D06BE65D7 /* Pods-HRLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB9DA98801117E72A632B82CB3309F9 /* Pods-HRLogin_Example-dummy.m */; };
+		561E34C0F57704750A262FFBCD886CF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A245FFFF8344D5C2DC6D19F4148CAFD /* Security.framework */; };
 		5A9E5BEBF711C95EFFA8901180382659 /* Pods-HRLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D309471950263926DAB419AD2A429EA4 /* Pods-HRLogin_Tests-dummy.m */; };
-		5DD233578550C598617D9BB3CB1FAAF5 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BA229DEAB0C13B03E541FCF1C765FF /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71C2004FA29B410BAB984B834142137F /* HRLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B585907E1BEEFBDBABF9AF6361CFEC3 /* HRLogin-dummy.m */; };
+		79C0F4249F552C9E45ED1FE8F10580CE /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FC09A207C91961831B745A0561BF0536 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94979625B01120223D2CE9F412D1577E /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BA229DEAB0C13B03E541FCF1C765FF /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A998F688AFA2DD5937BB833DFD489616 /* Pods-HRLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B14A62A043C0BF9E5BAE48E6EAE719 /* Pods-HRLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A99D36A5E6B53413EBBDDD9D2F61CA2E /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 143F179EFA4CD68707C064420A6A8075 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B939C5CC8F42F008EBE8E4E68C3447F5 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FC09A207C91961831B745A0561BF0536 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6ED3314B6E93367365827D64E7BA55C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */; };
-		C9843EC771B4746D16306CC07F14477F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41E32129C43F702B405D91CEB606B94 /* CoreTelephony.framework */; };
-		CF23E900B0BE94FB90F82D78731D81AC /* WeChatLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86D725E0044899E7F9015F23F8943A8 /* WeChatLogin.swift */; };
-		D91A7AFDEEE58CA84C719267912B582A /* HRLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5275A09B311627C400390A45256EEE7 /* HRLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E827E3096551F80463EF6100C1A1E7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */; };
-		F409202059414EEB9CF0080B8EA4F677 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270C5A701388220F352A553C52E7BE4B /* SystemConfiguration.framework */; };
+		C6FE250C49346A2B115811FFF56739E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7423567E841AE2F9663B611B1718DF /* Foundation.framework */; };
+		E827E3096551F80463EF6100C1A1E7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7423567E841AE2F9663B611B1718DF /* Foundation.framework */; };
+		F0FA2365A292D7E26B7093436DFE6F1A /* HRLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5275A09B311627C400390A45256EEE7 /* HRLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 329DC2098EFC85E70FCF7AD57C260C71;
+			remoteGlobalIDString = 66D28A6B0B68DF10EFB313DBDB7E5850;
 			remoteInfo = HRLogin;
 		};
 /* End PBXContainerItemProxy section */
@@ -43,57 +44,59 @@
 		2068A46C6A4CB800B64F5BC51F3E80D6 /* Pods-HRLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		24A3B7EA49880E4B1D73FCCDE63DAE66 /* Pods-HRLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2594EF1CC7645BF460EACD1DBA2DFE0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		270C5A701388220F352A553C52E7BE4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		31FE6D6D54804CDDFE9B35065DBB2BC5 /* Pods-HRLogin_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLogin_Tests-resources.sh"; sourceTree = "<group>"; };
-		3758C81A807F728C2183F8E04263230D /* HRLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRLogin.modulemap; sourceTree = "<group>"; };
+		3758C81A807F728C2183F8E04263230D /* HRLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HRLogin.modulemap; sourceTree = "<group>"; };
 		3A665B71073A9A0B45F8193101D2EC53 /* HRLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLogin-prefix.pch"; sourceTree = "<group>"; };
+		3EC5CB451D24C14CD13B34233BBB942D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		414A5B738D4770D5BE084B7891BCEC8B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		41E95CD0C4AAACA84EFBEA04673E96F4 /* Pods-HRLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4EF7D236D4F9902778B1495979DC5562 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = HRLogin/Classes/WechtSDK1.8.2_NoPay/libWeChatSDK.a; sourceTree = "<group>"; };
-		5DE65F2ED95844200B8883BC9F0D5DE4 /* HRLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRLogin.framework; path = HRLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE65F2ED95844200B8883BC9F0D5DE4 /* HRLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HRLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		641049D672B82F1A6A6322C984703B20 /* Pods-HRLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D9669AFE15469330D18470BE3E6963D /* Pods_HRLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLogin_Example.framework; path = "Pods-HRLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9669AFE15469330D18470BE3E6963D /* Pods_HRLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A2F96663969089B67605AE4D2D338A /* Pods-HRLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		845F4BBD37E1AA15ACDBFE053EE7D163 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A245FFFF8344D5C2DC6D19F4148CAFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		922899658E409226D97DF0C2B6590868 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		996FC5391DC8BB4BFE6F6F97C024A38C /* Pods-HRLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9FEE83D16DB7386FB6083FBD8022ED4D /* Pods-HRLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B8375902E687C0712D18FB4C158634D5 /* Pods_HRLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLogin_Tests.framework; path = "Pods-HRLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8375902E687C0712D18FB4C158634D5 /* Pods_HRLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0688964FB7D613129F920340E42968D /* Pods-HRLogin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLogin_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C793C75149A76BC4D8F7FEB32989D895 /* Pods-HRLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8B14A62A043C0BF9E5BAE48E6EAE719 /* Pods-HRLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLogin_Example-umbrella.h"; sourceTree = "<group>"; };
 		CAB9DA98801117E72A632B82CB3309F9 /* Pods-HRLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLogin_Example-dummy.m"; sourceTree = "<group>"; };
 		CC8BB58615EEFA9B3F39AC1852FA51DB /* Pods-HRLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D309471950263926DAB419AD2A429EA4 /* Pods-HRLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB9BC74AE256490C0A203F8662F8260D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		DD2209B83C0F6108A564C791A798DDC7 /* HRLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLogin.xcconfig; sourceTree = "<group>"; };
 		E3C81C33E9BEC090AE64258DEC478E3D /* Pods-HRLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E86D725E0044899E7F9015F23F8943A8 /* WeChatLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeChatLogin.swift; path = HRLogin/Classes/WeChatLogin.swift; sourceTree = "<group>"; };
-		EFED55B70FE954ED7665EE095A5DBD73 /* Pods-HRLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLogin_Tests.modulemap"; sourceTree = "<group>"; };
-		F41E32129C43F702B405D91CEB606B94 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		EC7423567E841AE2F9663B611B1718DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EFED55B70FE954ED7665EE095A5DBD73 /* Pods-HRLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		F5275A09B311627C400390A45256EEE7 /* HRLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLogin-umbrella.h"; sourceTree = "<group>"; };
-		F6C39D5A5C965B9FEC2AE83732D127CB /* Pods-HRLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLogin_Example.modulemap"; sourceTree = "<group>"; };
+		F6C39D5A5C965B9FEC2AE83732D127CB /* Pods-HRLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLogin_Example.modulemap"; sourceTree = "<group>"; };
 		FC09A207C91961831B745A0561BF0536 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		FCCD4BC30FB428426AD82F308276840B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3878AB3E884C6445B3B9EFDD93977DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461121F69D79C7E1405BD1B907E93FFA /* CFNetwork.framework in Frameworks */,
+				1E987C54D9CCD2C4433CF508890B55F3 /* CoreTelephony.framework in Frameworks */,
+				C6FE250C49346A2B115811FFF56739E5 /* Foundation.framework in Frameworks */,
+				561E34C0F57704750A262FFBCD886CF9 /* Security.framework in Frameworks */,
+				19833954C4182093F475091048A01EEC /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F553A24117FEAEFE556FCA408F7FDBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E827E3096551F80463EF6100C1A1E7D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7377ADF20511AE43317D7E515CD7FD0D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0ED4EF765B92C2C1108E36C2CD1FD8F8 /* CoreMotion.framework in Frameworks */,
-				C9843EC771B4746D16306CC07F14477F /* CoreTelephony.framework in Frameworks */,
-				C6ED3314B6E93367365827D64E7BA55C /* Foundation.framework in Frameworks */,
-				F409202059414EEB9CF0080B8EA4F677 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,14 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7E35936F259A05E946E8F874D367F9D0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		208A03FB1C47CE9941559681DA715B02 /* HRLogin */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +121,14 @@
 			);
 			name = HRLogin;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A66B73EFA81DE2EA9975AA1C929F913 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2BB17B3620C55F520B46D03B7678A13E /* Products */ = {
@@ -153,6 +156,18 @@
 				208A03FB1C47CE9941559681DA715B02 /* HRLogin */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A66B73EFA81DE2EA9975AA1C929F913 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EC5CB451D24C14CD13B34233BBB942D /* CFNetwork.framework */,
+				414A5B738D4770D5BE084B7891BCEC8B /* CoreTelephony.framework */,
+				EC7423567E841AE2F9663B611B1718DF /* Foundation.framework */,
+				8A245FFFF8344D5C2DC6D19F4148CAFD /* Security.framework */,
+				DB9BC74AE256490C0A203F8662F8260D /* SystemConfiguration.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		69AF9A34A7458DABCB0568150925A95A /* Frameworks */ = {
@@ -186,21 +201,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				53F99C5D11D255FC281EDC9D308A035D /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				2BB17B3620C55F520B46D03B7678A13E /* Products */,
 				53E272BC28B978F72D080D103307123F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E35936F259A05E946E8F874D367F9D0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FCCD4BC30FB428426AD82F308276840B /* CoreMotion.framework */,
-				F41E32129C43F702B405D91CEB606B94 /* CoreTelephony.framework */,
-				4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */,
-				270C5A701388220F352A553C52E7BE4B /* SystemConfiguration.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		81940A7AB8D8092FB05EEEB51479582A /* WechtSDK1.8.2_NoPay */ = {
@@ -257,14 +261,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FA8977946DFCB3698D6991300CF5D0D /* Headers */ = {
+		220654CAA57B61E8C5A5EB2D3828DE2F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91A7AFDEEE58CA84C719267912B582A /* HRLogin-umbrella.h in Headers */,
-				A99D36A5E6B53413EBBDDD9D2F61CA2E /* WechatAuthSDK.h in Headers */,
-				5DD233578550C598617D9BB3CB1FAAF5 /* WXApi.h in Headers */,
-				B939C5CC8F42F008EBE8E4E68C3447F5 /* WXApiObject.h in Headers */,
+				F0FA2365A292D7E26B7093436DFE6F1A /* HRLogin-umbrella.h in Headers */,
+				19F12F66A10D443AC2B0A64B94D97697 /* WechatAuthSDK.h in Headers */,
+				94979625B01120223D2CE9F412D1577E /* WXApi.h in Headers */,
+				79C0F4249F552C9E45ED1FE8F10580CE /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,13 +283,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		329DC2098EFC85E70FCF7AD57C260C71 /* HRLogin */ = {
+		66D28A6B0B68DF10EFB313DBDB7E5850 /* HRLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE3A307A32A9D427E59D777677C65C5B /* Build configuration list for PBXNativeTarget "HRLogin" */;
+			buildConfigurationList = 86EF139BB3C3333C577C7B1F6F36A77F /* Build configuration list for PBXNativeTarget "HRLogin" */;
 			buildPhases = (
-				D3B9080755DEBCADDCACD154D478ADAD /* Sources */,
-				7377ADF20511AE43317D7E515CD7FD0D /* Frameworks */,
-				7FA8977946DFCB3698D6991300CF5D0D /* Headers */,
+				4593EA7E5C56A362AD1F734E37A62D03 /* Sources */,
+				3878AB3E884C6445B3B9EFDD93977DFC /* Frameworks */,
+				220654CAA57B61E8C5A5EB2D3828DE2F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -338,7 +342,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,7 +356,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				329DC2098EFC85E70FCF7AD57C260C71 /* HRLogin */,
+				66D28A6B0B68DF10EFB313DBDB7E5850 /* HRLogin */,
 				BCE025EE8E60893232C8BB582E819496 /* Pods-HRLogin_Example */,
 				A549A0BC025F1AE04B2357E2CE0AF95C /* Pods-HRLogin_Tests */,
 			);
@@ -360,6 +364,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4593EA7E5C56A362AD1F734E37A62D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0D9012F9115DA2BA5EA6FC93C819EE /* HRLogin-dummy.m in Sources */,
+				3ED25EC89547459629446F678B473D10 /* WeChatLogin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91471E4BF10171E7D8CB5C8D6F13779A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,63 +389,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3B9080755DEBCADDCACD154D478ADAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71C2004FA29B410BAB984B834142137F /* HRLogin-dummy.m in Sources */,
-				CF23E900B0BE94FB90F82D78731D81AC /* WeChatLogin.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		40B0D231A477D928B8DF8AF94262B993 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HRLogin;
-			target = 329DC2098EFC85E70FCF7AD57C260C71 /* HRLogin */;
+			target = 66D28A6B0B68DF10EFB313DBDB7E5850 /* HRLogin */;
 			targetProxy = 115E7D7339232385BD77695DECFE0137 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		130405B37C85538E329219891CFE0E34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD2209B83C0F6108A564C791A798DDC7 /* HRLogin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HRLogin/HRLogin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HRLogin/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HRLogin/HRLogin.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HRLogin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,7 +411,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -450,14 +421,77 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -468,51 +502,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3BD6947E2A2C8B02D3E1901E9EF6810D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C81C33E9BEC090AE64258DEC478E3D /* Pods-HRLogin_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HRLogin_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HRLogin_Tests/Pods-HRLogin_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HRLogin_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		70C3283E37449FA2404BA5D103BA6C43 /* Release */ = {
+		460DD2D8EE755551A940CF656935A28E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80A2F96663969089B67605AE4D2D338A /* Pods-HRLogin_Example.release.xcconfig */;
 			buildSettings = {
@@ -530,7 +529,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-HRLogin_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HRLogin_Example/Pods-HRLogin_Example.modulemap";
@@ -550,7 +549,42 @@
 			};
 			name = Release;
 		};
-		8C5C50746C87F58714DC291BFAF6DF96 /* Debug */ = {
+		86779EEAFE6EBEBEC25B8F985112B2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2209B83C0F6108A564C791A798DDC7 /* HRLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRLogin/HRLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRLogin/HRLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HRLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		885C3C5F9B52076D29C57D9E29942EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD2209B83C0F6108A564C791A798DDC7 /* HRLogin.xcconfig */;
 			buildSettings = {
@@ -585,43 +619,7 @@
 			};
 			name = Debug;
 		};
-		D4B54445F6EE9E483605213F211EC43A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C793C75149A76BC4D8F7FEB32989D895 /* Pods-HRLogin_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HRLogin_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HRLogin_Tests/Pods-HRLogin_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HRLogin_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E5B2384F54AC9EE6D05BCE41E596928F /* Debug */ = {
+		B371B53B7FB29E39B6A36B0641B6A0A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 996FC5391DC8BB4BFE6F6F97C024A38C /* Pods-HRLogin_Example.debug.xcconfig */;
 			buildSettings = {
@@ -639,7 +637,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-HRLogin_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HRLogin_Example/Pods-HRLogin_Example.modulemap";
@@ -660,54 +658,77 @@
 			};
 			name = Debug;
 		};
-		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+		B65732E359338303445325EED8A84FA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C793C75149A76BC4D8F7FEB32989D895 /* Pods-HRLogin_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLogin_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLogin_Tests/Pods-HRLogin_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLogin_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		DDC6D25FE6C086650CD0C9870C54B95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C81C33E9BEC090AE64258DEC478E3D /* Pods-HRLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLogin_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLogin_Tests/Pods-HRLogin_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLogin_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -715,8 +736,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
-				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -724,8 +745,17 @@
 		546859C010F621D78E28F980B7EDD503 /* Build configuration list for PBXNativeTarget "Pods-HRLogin_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5B2384F54AC9EE6D05BCE41E596928F /* Debug */,
-				70C3283E37449FA2404BA5D103BA6C43 /* Release */,
+				B371B53B7FB29E39B6A36B0641B6A0A5 /* Debug */,
+				460DD2D8EE755551A940CF656935A28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86EF139BB3C3333C577C7B1F6F36A77F /* Build configuration list for PBXNativeTarget "HRLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C3C5F9B52076D29C57D9E29942EC0 /* Debug */,
+				86779EEAFE6EBEBEC25B8F985112B2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -733,17 +763,8 @@
 		B02FB493ADF4937633C48CA04D385FCD /* Build configuration list for PBXNativeTarget "Pods-HRLogin_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4B54445F6EE9E483605213F211EC43A /* Debug */,
-				3BD6947E2A2C8B02D3E1901E9EF6810D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE3A307A32A9D427E59D777677C65C5B /* Build configuration list for PBXNativeTarget "HRLogin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C5C50746C87F58714DC291BFAF6DF96 /* Debug */,
-				130405B37C85538E329219891CFE0E34 /* Release */,
+				B65732E359338303445325EED8A84FA1 /* Debug */,
+				DDC6D25FE6C086650CD0C9870C54B95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 {
   "name": "HRLogin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of HRLogin.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/obgniyum/HRLogin",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/iOSSwift-Risenb/HRLogin.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,8 +26,12 @@
     "sqlite3.0"
   ],
   "frameworks": [
+    "Security",
     "CoreTelephony",
     "SystemConfiguration",
-    "CoreMotion"
-  ]
+    "CFNetwork"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
 }

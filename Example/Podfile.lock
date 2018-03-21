@@ -1,5 +1,5 @@
 PODS:
-  - HRLogin (0.1.0)
+  - HRLogin (0.1.1)
 
 DEPENDENCIES:
   - HRLogin (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HRLogin: e8fe49649bbaab5b0f3e24a9d2d7f68b870ccc73
+  HRLogin: 6b2af60feaa65ccc1131afe9fd7609d3f0947ef3
 
 PODFILE CHECKSUM: 6603c358cb210d0de0e8c326133f05963f181158
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRLogin'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HRLogin.'
 
 # This description is used to generate tags and improve search results.
@@ -40,8 +40,11 @@ s.source_files = 'HRLogin/Classes/**/*.{swift,h}'
   # s.frameworks = 'UIKit', 'MapKit'
 s.vendored_libraries = 'HRLogin/Classes/WechtSDK1.8.2_NoPay/libWeChatSDK.a'
 s.libraries = 'c++', 'z', 'sqlite3.0'
-s.frameworks        = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+s.frameworks        = 'Security', 'CoreTelephony', 'SystemConfiguration', 'CFNetwork'
 
+#s.xcconfig  =  {'OTHER_LDFLAGS' => '-all_load'}
+s.pod_target_xcconfig =  {'OTHER_LDFLAGS' => '-all_load'}
 
   # s.dependency 'AFNetworking', '~> 2.3'
+
 end
